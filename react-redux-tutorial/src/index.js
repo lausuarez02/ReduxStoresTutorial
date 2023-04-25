@@ -14,21 +14,6 @@ const App = () => {
  )
  }
 
-//  const mapStateToProps = (state) => {
-//   return {
-//     count: state.count
-//   };
-// };
-
-// const mapDispatchToProps = (dispatch) => {
-//   return {
-//     increment: () => dispatch(increment()),
-//     decrement: () => dispatch(decrement())
-//   };
-// };
-
-// export default connect(mapStateToProps, mapDispatchToProps)(App);
-
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
